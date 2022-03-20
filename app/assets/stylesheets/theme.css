@@ -1,0 +1,9 @@
+:root{
+    --general-choc: #D2691E;
+    --general-neutro: #FFFFF0; 
+    --general-font-det: #F8F8FF
+}
+
+.container-list{
+    background-color: var(--backg);
+}

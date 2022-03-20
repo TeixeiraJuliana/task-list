@@ -1,0 +1,18 @@
+
+<div class="container-list .m-flex"> 
+  <h1> Listas de tarefas</h1>
+  <div class="content-list" >
+    <p style="color: green"><%= notice %></p>
+    <%= link_to "New theme", new_theme_path %>
+      <div class="content-themes m-flex">
+        <div class="car-list">
+          <% @themes.each do |theme| %>
+          <%= render theme %>
+          <p>
+            <%= link_to "Show this theme", theme %>
+          </p>
+          <% end %>
+        </div>
+      </div>
+  </div>
+</div>

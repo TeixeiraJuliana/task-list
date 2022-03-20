@@ -1,0 +1,25 @@
+.m-flex{
+    display: flex;
+    align-items: center;
+}
+.container-list{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 150px;
+}
+.content-themes{
+    display: flex;
+}
+.car-list{
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.n-new-t{
+    flex-direction: column;
+}
+.content-show-theme{
+    background: red;
+
+}

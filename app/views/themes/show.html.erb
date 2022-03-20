@@ -1,0 +1,22 @@
+
+
+
+<div class="container-list "> 
+  <div class="content-list" >
+    <p style="color: green"><%= notice %></p>
+    <div class="m-flex">
+        <%= render @theme%>
+        <%= link_to "Editar", edit_theme_path(@theme) %> |
+        <%= link_to "Retornar", themes_path %>
+        <%= link_to "New", new_theme_path %>
+        <%= button_to "Excluir", @theme, method: :delete %>
+    </div>
+    <div class="content-themes m-flex">
+      <%= link_to theme_todos_path(@theme)  %>
+      <%= link_to 'Nova tarefa',  new_theme_todo_path(@theme)%>
+    </div>
+  </div>
+</div>
+
+
+
